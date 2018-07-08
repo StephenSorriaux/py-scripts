@@ -1,6 +1,18 @@
 # py-scripts
 Some Python scripts to easier some boring tasks.
 
+## avoid-windows-restart-after-os-update.py
+Aim:
+ * avoid Windows to forcely restart the computer after an OS update
+
+Requires:
+ * administrator session
+
+Usage:
+```
+./avoid-windows-restart-after-os-update.py
+```
+
 ## generate-keystore.py
 Aim:
  * generates a keystore.jks containing key and certs signed with ca.cer
